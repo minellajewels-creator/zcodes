@@ -14,7 +14,7 @@
  *  - Paste it below as SHEET_ID
  */
 
-const SHEET_ID = "YOUR_GOOGLE_SHEET_ID_HERE"; // ← REPLACE THIS after publishing your sheet
+const SHEET_ID = "1DSXBNUEa4CXs-DkkBvmfJwsADmUC2F2s5-FZsPKf7pQ"; // ← REPLACE THIS after publishing your sheet
 const API_BASE = `https://opensheet.elk.sh/${SHEET_ID}`;
 
 // ── Global state ──────────────────────────────────────────────
