@@ -1,0 +1,13 @@
+{
+  "name": "sapzcodes-site",
+  "version": "1.0.0",
+  "description": "SAPZCODES static site generator",
+  "type": "module",
+  "scripts": {
+    "bake": "node bake.js",
+    "dev": "node bake.js && npx serve dist"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

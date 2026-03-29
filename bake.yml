@@ -1,0 +1,92 @@
+name: 🔥 Bake & Deploy Site
+
+on:
+  # ── Run every 6 hours ──────────────────────────────────────
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # ── Also run on every push to main (instant deploy on content/code changes) ──
+  push:
+    branches:
+      - main
+
+  # ── Allow manual trigger from GitHub Actions UI ──
+  workflow_dispatch:
+
+# Allow GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  bake-and-deploy:
+    name: Bake Static Site & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout repo ──────────────────────────────────
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Setup Node ────────────────────────────────────
+      - name: 🟢 Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # ── 3. Install dependencies (none needed, pure Node) ─
+      # (keeping this step in case you add deps later)
+      - name: 📦 Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            echo "No package-lock.json found, skipping npm ci"
+          fi
+
+      # ── 4. Run bake.js ────────────────────────────────────
+      - name: 🔥 Bake static site
+        env:
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+        run: node bake.js
+
+      # ── 5. Copy static assets to dist ─────────────────────
+      - name: 📁 Copy static assets
+        run: |
+          cp styles.css dist/styles.css
+          cp logoforwhite.png dist/logoforwhite.png
+          cp favicon.png dist/favicon.png
+          echo "Assets copied to dist/"
+          echo "── dist/ contents ──"
+          ls -la dist/
+          echo "── dist/pages/ ──"
+          ls -la dist/pages/ || echo "(no pages dir yet)"
+
+      # ── 6. Upload artifact for Pages ──────────────────────
+      - name: 📤 Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      # ── 7. Deploy to GitHub Pages ─────────────────────────
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      # ── 8. Report ─────────────────────────────────────────
+      - name: ✅ Deployment summary
+        run: |
+          echo "## 🎉 Deployment Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Site URL:** ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Baked at:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Pages generated:**" >> $GITHUB_STEP_SUMMARY
+          ls dist/pages/*.html 2>/dev/null | sed 's/dist\/pages\//- /' >> $GITHUB_STEP_SUMMARY || echo "- (none)" >> $GITHUB_STEP_SUMMARY
