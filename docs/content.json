@@ -1,0 +1,870 @@
+{
+  "generated_at": "2026-03-30T06:59:25.582Z",
+  "config": {
+    "⚠️ DO NOT DELETE THIS SHEET": "",
+    "── SITE IDENTITY ──": "",
+    "site_name": "SAPZCODES",
+    "site_tagline": "SAP Training & Consulting | Coimbatore",
+    "logo_url": "logoforwhite.png",
+    "favicon_url": "favicon.png",
+    "── CONTACT INFO (used in footer & contact page) ──": "",
+    "contact_phone": "+91 99522 27377",
+    "contact_email": "hr@sapzcodes.com",
+    "contact_instagram": "sapzcodes",
+    "contact_address": "R.S. Puram, Coimbatore",
+    "whatsapp_number": "919952227377",
+    "── NAVIGATION ORDER ──": "",
+    "nav_order": "Home,About Us,Services,Career,Corporate Training,Consulting,Our Clients,Enquiry,T&C",
+    "── THEME ──": "",
+    "accent_color": "#39FF14",
+    "primary_color": "#1a1a1a",
+    "footer_text": "© 2025 SAPZCODES · Coimbatore · All Rights Reserved"
+  },
+  "nav_order": [
+    "Home",
+    "About Us",
+    "Services",
+    "Career",
+    "Corporate Training",
+    "Consulting",
+    "Our Clients",
+    "Enquiry",
+    "T&C"
+  ],
+  "pages": {
+    "Home": {
+      "── HERO SECTION ──": "",
+      "hero_badge": "Coimbatore's #1 SAP Training Institute",
+      "hero_heading": "Master SAP.\nLaunch Your Dream Career.",
+      "hero_subtext": "No experience needed. Industry-expert trainers. Real SAP system access. 100% placement assistance.",
+      "hero_cta_primary": "📲 WhatsApp Enquiry",
+      "hero_cta_secondary": "Explore Courses →",
+      "── STATS BAR ──": "",
+      "stat_1_number": "500+",
+      "stat_1_label": "Students Trained",
+      "stat_2_number": "10+",
+      "stat_2_label": "SAP Modules",
+      "stat_3_number": "100%",
+      "stat_3_label": "Placement Assist",
+      "stat_4_number": "Expert",
+      "stat_4_label": "Industry Trainers",
+      "── SERVICES SECTION ──": "",
+      "services_heading": "What We Offer",
+      "services_subheading": "From SAP training to enterprise consulting — we cover it all.",
+      "SERVICE_KEY": "VALUE",
+      "service_1_icon": "🎓",
+      "service_1_title": "SAP Training",
+      "service_1_desc": "Classroom & online SAP training across all major modules for freshers and professionals.",
+      "service_2_icon": "🏢",
+      "service_2_title": "Corporate Training",
+      "service_2_desc": "Customised SAP training programs for corporates, teams and organisations.",
+      "service_3_icon": "🔧",
+      "service_3_title": "SAP Consulting",
+      "service_3_desc": "End-to-end SAP implementation, support and consulting for businesses.",
+      "service_4_icon": "📜",
+      "service_4_title": "Certification Support",
+      "service_4_desc": "SAP global certification prep with mock tests, study material and expert guidance.",
+      "── WHY SAPZCODES SECTION ──": "",
+      "why_heading": "Built for Your Success.",
+      "why_1_icon": "🎯",
+      "why_1_title": "Zero Experience Needed",
+      "why_1_desc": "Fresher or career switcher — we start from scratch and take you job-ready.",
+      "why_2_icon": "🏆",
+      "why_2_title": "100% Placement Assist",
+      "why_2_desc": "Dedicated placement team connecting you to MNCs and SAP partners across India.",
+      "why_3_icon": "📜",
+      "why_3_title": "Certification Support",
+      "why_3_desc": "Complete SAP global certification prep — mock tests, study materials and expert support.",
+      "why_4_icon": "👨‍💻",
+      "why_4_title": "Industry Expert Trainers",
+      "why_4_desc": "Real-world SAP consultants with live project experience across diverse industries.",
+      "why_5_icon": "🖥️",
+      "why_5_title": "Live SAP System Access",
+      "why_5_desc": "Hands-on training on real SAP environments with actual project scenarios from Day 1.",
+      "why_6_icon": "📅",
+      "why_6_title": "Flexible Batch Options",
+      "why_6_desc": "Weekday, weekend and fast-track batches to fit your schedule.",
+      "__rows": [
+        {
+          "CONTENT KEY": "── HERO SECTION ──"
+        },
+        {
+          "CONTENT KEY": "hero_badge",
+          "VALUE — Edit this column": "Coimbatore's #1 SAP Training Institute",
+          "📝 NOTES FOR EDITOR": "Small label shown above main heading"
+        },
+        {
+          "CONTENT KEY": "hero_heading",
+          "VALUE — Edit this column": "Master SAP.\nLaunch Your Dream Career.",
+          "📝 NOTES FOR EDITOR": "Main hero heading. Use \\n for line break"
+        },
+        {
+          "CONTENT KEY": "hero_subtext",
+          "VALUE — Edit this column": "No experience needed. Industry-expert trainers. Real SAP system access. 100% placement assistance.",
+          "📝 NOTES FOR EDITOR": "Paragraph below heading"
+        },
+        {
+          "CONTENT KEY": "hero_cta_primary",
+          "VALUE — Edit this column": "📲 WhatsApp Enquiry",
+          "📝 NOTES FOR EDITOR": "Primary button label"
+        },
+        {
+          "CONTENT KEY": "hero_cta_secondary",
+          "VALUE — Edit this column": "Explore Courses →",
+          "📝 NOTES FOR EDITOR": "Secondary button label"
+        },
+        {},
+        {},
+        {
+          "CONTENT KEY": "── STATS BAR ──"
+        },
+        {
+          "CONTENT KEY": "stat_1_number",
+          "VALUE — Edit this column": "500+",
+          "📝 NOTES FOR EDITOR": "Big number shown"
+        },
+        {
+          "CONTENT KEY": "stat_1_label",
+          "VALUE — Edit this column": "Students Trained",
+          "📝 NOTES FOR EDITOR": "Label below the number"
+        },
+        {
+          "CONTENT KEY": "stat_2_number",
+          "VALUE — Edit this column": "10+"
+        },
+        {
+          "CONTENT KEY": "stat_2_label",
+          "VALUE — Edit this column": "SAP Modules"
+        },
+        {
+          "CONTENT KEY": "stat_3_number",
+          "VALUE — Edit this column": "100%"
+        },
+        {
+          "CONTENT KEY": "stat_3_label",
+          "VALUE — Edit this column": "Placement Assist"
+        },
+        {
+          "CONTENT KEY": "stat_4_number",
+          "VALUE — Edit this column": "Expert"
+        },
+        {
+          "CONTENT KEY": "stat_4_label",
+          "VALUE — Edit this column": "Industry Trainers"
+        },
+        {},
+        {
+          "CONTENT KEY": "── SERVICES SECTION ──"
+        },
+        {
+          "CONTENT KEY": "services_heading",
+          "VALUE — Edit this column": "What We Offer",
+          "📝 NOTES FOR EDITOR": "Section heading for services"
+        },
+        {
+          "CONTENT KEY": "services_subheading",
+          "VALUE — Edit this column": "From SAP training to enterprise consulting — we cover it all.",
+          "📝 NOTES FOR EDITOR": "Paragraph below heading"
+        },
+        {},
+        {
+          "CONTENT KEY": "SERVICE_KEY",
+          "VALUE — Edit this column": "VALUE",
+          "📝 NOTES FOR EDITOR": "NOTES"
+        },
+        {
+          "CONTENT KEY": "service_1_icon",
+          "VALUE — Edit this column": "🎓",
+          "📝 NOTES FOR EDITOR": "Emoji or leave blank"
+        },
+        {
+          "CONTENT KEY": "service_1_title",
+          "VALUE — Edit this column": "SAP Training"
+        },
+        {
+          "CONTENT KEY": "service_1_desc",
+          "VALUE — Edit this column": "Classroom & online SAP training across all major modules for freshers and professionals."
+        },
+        {
+          "CONTENT KEY": "service_2_icon",
+          "VALUE — Edit this column": "🏢"
+        },
+        {
+          "CONTENT KEY": "service_2_title",
+          "VALUE — Edit this column": "Corporate Training"
+        },
+        {
+          "CONTENT KEY": "service_2_desc",
+          "VALUE — Edit this column": "Customised SAP training programs for corporates, teams and organisations."
+        },
+        {
+          "CONTENT KEY": "service_3_icon",
+          "VALUE — Edit this column": "🔧"
+        },
+        {
+          "CONTENT KEY": "service_3_title",
+          "VALUE — Edit this column": "SAP Consulting"
+        },
+        {
+          "CONTENT KEY": "service_3_desc",
+          "VALUE — Edit this column": "End-to-end SAP implementation, support and consulting for businesses."
+        },
+        {
+          "CONTENT KEY": "service_4_icon",
+          "VALUE — Edit this column": "📜"
+        },
+        {
+          "CONTENT KEY": "service_4_title",
+          "VALUE — Edit this column": "Certification Support"
+        },
+        {
+          "CONTENT KEY": "service_4_desc",
+          "VALUE — Edit this column": "SAP global certification prep with mock tests, study material and expert guidance."
+        },
+        {},
+        {},
+        {},
+        {
+          "CONTENT KEY": "── WHY SAPZCODES SECTION ──"
+        },
+        {
+          "CONTENT KEY": "why_heading",
+          "VALUE — Edit this column": "Built for Your Success."
+        },
+        {
+          "CONTENT KEY": "why_1_icon",
+          "VALUE — Edit this column": "🎯"
+        },
+        {
+          "CONTENT KEY": "why_1_title",
+          "VALUE — Edit this column": "Zero Experience Needed"
+        },
+        {
+          "CONTENT KEY": "why_1_desc",
+          "VALUE — Edit this column": "Fresher or career switcher — we start from scratch and take you job-ready."
+        },
+        {
+          "CONTENT KEY": "why_2_icon",
+          "VALUE — Edit this column": "🏆"
+        },
+        {
+          "CONTENT KEY": "why_2_title",
+          "VALUE — Edit this column": "100% Placement Assist"
+        },
+        {
+          "CONTENT KEY": "why_2_desc",
+          "VALUE — Edit this column": "Dedicated placement team connecting you to MNCs and SAP partners across India."
+        },
+        {
+          "CONTENT KEY": "why_3_icon",
+          "VALUE — Edit this column": "📜"
+        },
+        {
+          "CONTENT KEY": "why_3_title",
+          "VALUE — Edit this column": "Certification Support"
+        },
+        {
+          "CONTENT KEY": "why_3_desc",
+          "VALUE — Edit this column": "Complete SAP global certification prep — mock tests, study materials and expert support."
+        },
+        {
+          "CONTENT KEY": "why_4_icon",
+          "VALUE — Edit this column": "👨‍💻"
+        },
+        {
+          "CONTENT KEY": "why_4_title",
+          "VALUE — Edit this column": "Industry Expert Trainers"
+        },
+        {
+          "CONTENT KEY": "why_4_desc",
+          "VALUE — Edit this column": "Real-world SAP consultants with live project experience across diverse industries."
+        },
+        {
+          "CONTENT KEY": "why_5_icon",
+          "VALUE — Edit this column": "🖥️"
+        },
+        {
+          "CONTENT KEY": "why_5_title",
+          "VALUE — Edit this column": "Live SAP System Access"
+        },
+        {
+          "CONTENT KEY": "why_5_desc",
+          "VALUE — Edit this column": "Hands-on training on real SAP environments with actual project scenarios from Day 1."
+        },
+        {
+          "CONTENT KEY": "why_6_icon",
+          "VALUE — Edit this column": "📅"
+        },
+        {
+          "CONTENT KEY": "why_6_title",
+          "VALUE — Edit this column": "Flexible Batch Options"
+        },
+        {
+          "CONTENT KEY": "why_6_desc",
+          "VALUE — Edit this column": "Weekday, weekend and fast-track batches to fit your schedule."
+        }
+      ]
+    },
+    "About Us": {
+      "page_title": "About Us",
+      "intro_heading": "Who We Are",
+      "intro_text": "SAPZCODES is Coimbatore's premier SAP training and consulting institute. We specialize in transforming freshers and working professionals into industry-ready SAP consultants.",
+      "mission_heading": "Our Mission",
+      "mission_text": "To make SAP education accessible, practical, and career-defining — with real system access, expert trainers, and 100% placement support.",
+      "vision_heading": "Our Vision",
+      "vision_text": "To be the most trusted SAP learning partner across India, known for quality, outcomes, and student success.",
+      "founded_year": "2020",
+      "location": "R.S. Puram, Coimbatore, Tamil Nadu",
+      "team_heading": "Our Team",
+      "team_desc": "Our trainers are active SAP consultants with hands-on project experience across SD, MM, FICO, ABAP, BASIS and more.",
+      "trainer_1_name": "Trainer Name",
+      "trainer_1_role": "SAP ABAP Lead Consultant",
+      "trainer_1_exp": "8+ Years Experience",
+      "trainer_2_name": "Trainer Name",
+      "trainer_2_role": "SAP FICO Consultant",
+      "trainer_2_exp": "6+ Years Experience",
+      "__rows": [
+        {
+          "CONTENT KEY": "page_title",
+          "VALUE — Edit this column": "About Us",
+          "📝 NOTES FOR EDITOR": "Page heading shown at top"
+        },
+        {
+          "CONTENT KEY": "intro_heading",
+          "VALUE — Edit this column": "Who We Are"
+        },
+        {
+          "CONTENT KEY": "intro_text",
+          "VALUE — Edit this column": "SAPZCODES is Coimbatore's premier SAP training and consulting institute. We specialize in transforming freshers and working professionals into industry-ready SAP consultants.",
+          "📝 NOTES FOR EDITOR": "Main intro paragraph"
+        },
+        {
+          "CONTENT KEY": "mission_heading",
+          "VALUE — Edit this column": "Our Mission"
+        },
+        {
+          "CONTENT KEY": "mission_text",
+          "VALUE — Edit this column": "To make SAP education accessible, practical, and career-defining — with real system access, expert trainers, and 100% placement support."
+        },
+        {
+          "CONTENT KEY": "vision_heading",
+          "VALUE — Edit this column": "Our Vision"
+        },
+        {
+          "CONTENT KEY": "vision_text",
+          "VALUE — Edit this column": "To be the most trusted SAP learning partner across India, known for quality, outcomes, and student success."
+        },
+        {
+          "CONTENT KEY": "founded_year",
+          "VALUE — Edit this column": "2020",
+          "📝 NOTES FOR EDITOR": "Year founded — shown in timeline or stat"
+        },
+        {
+          "CONTENT KEY": "location",
+          "VALUE — Edit this column": "R.S. Puram, Coimbatore, Tamil Nadu",
+          "📝 NOTES FOR EDITOR": "Office location description"
+        },
+        {
+          "CONTENT KEY": "team_heading",
+          "VALUE — Edit this column": "Our Team"
+        },
+        {
+          "CONTENT KEY": "team_desc",
+          "VALUE — Edit this column": "Our trainers are active SAP consultants with hands-on project experience across SD, MM, FICO, ABAP, BASIS and more.",
+          "📝 NOTES FOR EDITOR": "Paragraph about trainers"
+        },
+        {
+          "CONTENT KEY": "trainer_1_name",
+          "VALUE — Edit this column": "Trainer Name",
+          "📝 NOTES FOR EDITOR": "Name of trainer 1"
+        },
+        {
+          "CONTENT KEY": "trainer_1_role",
+          "VALUE — Edit this column": "SAP ABAP Lead Consultant"
+        },
+        {
+          "CONTENT KEY": "trainer_1_exp",
+          "VALUE — Edit this column": "8+ Years Experience"
+        },
+        {
+          "CONTENT KEY": "trainer_2_name",
+          "VALUE — Edit this column": "Trainer Name"
+        },
+        {
+          "CONTENT KEY": "trainer_2_role",
+          "VALUE — Edit this column": "SAP FICO Consultant"
+        },
+        {
+          "CONTENT KEY": "trainer_2_exp",
+          "VALUE — Edit this column": "6+ Years Experience"
+        }
+      ]
+    },
+    "Career": {
+      "page_title": "Career & Courses",
+      "page_subtext": "Choose your SAP module. Get trained by experts. Launch your career.",
+      "── COURSES TABLE ── Add/remove rows below to add/remove courses": "",
+      "course_icon": "course_title",
+      "💻": "SAP ABAP",
+      "💰": "SAP FICO",
+      "📦": "SAP MM",
+      "🛒": "SAP SD",
+      "👥": "SAP HCM",
+      "🖥️": "SAP BASIS",
+      "🏭": "SAP PP",
+      "✅": "SAP QM",
+      "⚡": "SAP S/4HANA",
+      "__rows": [
+        {
+          "CONTENT KEY": "page_title",
+          "VALUE — Edit this column": "Career & Courses",
+          "📝 NOTES FOR EDITOR": "Page heading"
+        },
+        {
+          "CONTENT KEY": "page_subtext",
+          "VALUE — Edit this column": "Choose your SAP module. Get trained by experts. Launch your career."
+        },
+        {},
+        {
+          "CONTENT KEY": "── COURSES TABLE ── Add/remove rows below to add/remove courses"
+        },
+        {
+          "CONTENT KEY": "course_icon",
+          "VALUE — Edit this column": "course_title",
+          "📝 NOTES FOR EDITOR": "course_type (Technical / Functional / Next-Gen)",
+          "undefined": "course_description"
+        },
+        {
+          "CONTENT KEY": "💻",
+          "VALUE — Edit this column": "SAP ABAP",
+          "📝 NOTES FOR EDITOR": "Technical",
+          "undefined": "ABAP 7.5 syntax, Reports, BAPIs, BDC, BADIs, User Exits, Module Pool, CDS Views, RAP, S/4HANA. Our core speciality."
+        },
+        {
+          "CONTENT KEY": "💰",
+          "VALUE — Edit this column": "SAP FICO",
+          "📝 NOTES FOR EDITOR": "Functional",
+          "undefined": "GL, Accounts Payable, Accounts Receivable, Asset Accounting, Cost Center & Profit Center Controlling."
+        },
+        {
+          "CONTENT KEY": "📦",
+          "VALUE — Edit this column": "SAP MM",
+          "📝 NOTES FOR EDITOR": "Functional",
+          "undefined": "Procurement, Inventory Management, Vendor Management, Invoice Verification, Material Master."
+        },
+        {
+          "CONTENT KEY": "🛒",
+          "VALUE — Edit this column": "SAP SD",
+          "📝 NOTES FOR EDITOR": "Functional",
+          "undefined": "Order-to-Cash cycle, Pricing, Billing, Credit Management, Delivery & Customer Master data."
+        },
+        {
+          "CONTENT KEY": "👥",
+          "VALUE — Edit this column": "SAP HCM",
+          "📝 NOTES FOR EDITOR": "Functional",
+          "undefined": "Payroll, Personnel Administration, Time Management, Organisational Management for HR."
+        },
+        {
+          "CONTENT KEY": "🖥️",
+          "VALUE — Edit this column": "SAP BASIS",
+          "📝 NOTES FOR EDITOR": "Technical",
+          "undefined": "System landscape, User admin, Transport Management System, Performance tuning & security."
+        },
+        {
+          "CONTENT KEY": "🏭",
+          "VALUE — Edit this column": "SAP PP",
+          "📝 NOTES FOR EDITOR": "Functional",
+          "undefined": "MRP, Bill of Materials, Work Centers, Production Orders, Capacity Planning."
+        },
+        {
+          "CONTENT KEY": "✅",
+          "VALUE — Edit this column": "SAP QM",
+          "📝 NOTES FOR EDITOR": "Functional",
+          "undefined": "Inspection Plans, Quality Certificates, Notifications & Quality Management reporting."
+        },
+        {
+          "CONTENT KEY": "⚡",
+          "VALUE — Edit this column": "SAP S/4HANA",
+          "📝 NOTES FOR EDITOR": "Next-Gen",
+          "undefined": "In-memory computing, Fiori UX, real-time analytics & brownfield/greenfield migration paths."
+        }
+      ]
+    },
+    "Corporate Training": {
+      "page_title": "Corporate Training",
+      "page_subtext": "Customised SAP training programs designed for corporates, teams and organisations.",
+      "intro_heading": "Upskill Your Entire Team",
+      "intro_text": "We offer tailored SAP training programs for companies looking to train their workforce on SAP modules — both functional and technical. Sessions can be conducted at your premises or online.",
+      "offering_1_title": "On-Site Training",
+      "offering_1_desc": "Our trainers come to your office and conduct sessions as per your team's schedule and pace.",
+      "offering_2_title": "Online Live Sessions",
+      "offering_2_desc": "Virtual instructor-led training with live SAP system access for geographically distributed teams.",
+      "offering_3_title": "Custom Curriculum",
+      "offering_3_desc": "Training content designed around your specific SAP landscape, project type, and business requirements.",
+      "offering_4_title": "Post-Training Support",
+      "offering_4_desc": "Dedicated support after training to help your team apply skills in live environments.",
+      "cta_text": "Get a Custom Quote",
+      "cta_note": "Contact us to discuss your team's training needs and get a tailored proposal.",
+      "__rows": [
+        {
+          "CONTENT KEY": "page_title",
+          "VALUE — Edit this column": "Corporate Training"
+        },
+        {
+          "CONTENT KEY": "page_subtext",
+          "VALUE — Edit this column": "Customised SAP training programs designed for corporates, teams and organisations."
+        },
+        {
+          "CONTENT KEY": "intro_heading",
+          "VALUE — Edit this column": "Upskill Your Entire Team"
+        },
+        {
+          "CONTENT KEY": "intro_text",
+          "VALUE — Edit this column": "We offer tailored SAP training programs for companies looking to train their workforce on SAP modules — both functional and technical. Sessions can be conducted at your premises or online."
+        },
+        {
+          "CONTENT KEY": "offering_1_title",
+          "VALUE — Edit this column": "On-Site Training"
+        },
+        {
+          "CONTENT KEY": "offering_1_desc",
+          "VALUE — Edit this column": "Our trainers come to your office and conduct sessions as per your team's schedule and pace."
+        },
+        {
+          "CONTENT KEY": "offering_2_title",
+          "VALUE — Edit this column": "Online Live Sessions"
+        },
+        {
+          "CONTENT KEY": "offering_2_desc",
+          "VALUE — Edit this column": "Virtual instructor-led training with live SAP system access for geographically distributed teams."
+        },
+        {
+          "CONTENT KEY": "offering_3_title",
+          "VALUE — Edit this column": "Custom Curriculum"
+        },
+        {
+          "CONTENT KEY": "offering_3_desc",
+          "VALUE — Edit this column": "Training content designed around your specific SAP landscape, project type, and business requirements."
+        },
+        {
+          "CONTENT KEY": "offering_4_title",
+          "VALUE — Edit this column": "Post-Training Support"
+        },
+        {
+          "CONTENT KEY": "offering_4_desc",
+          "VALUE — Edit this column": "Dedicated support after training to help your team apply skills in live environments."
+        },
+        {
+          "CONTENT KEY": "cta_text",
+          "VALUE — Edit this column": "Get a Custom Quote",
+          "📝 NOTES FOR EDITOR": "Button label"
+        },
+        {
+          "CONTENT KEY": "cta_note",
+          "VALUE — Edit this column": "Contact us to discuss your team's training needs and get a tailored proposal."
+        }
+      ]
+    },
+    "Consulting": {
+      "page_title": "SAP Consulting",
+      "page_subtext": "End-to-end SAP implementation, support and consulting for businesses of all sizes.",
+      "intro_heading": "Your SAP Partner",
+      "intro_text": "SAPZCODES provides SAP consulting services to businesses looking to implement, optimise or support their SAP systems. Our consultants bring real project experience across SD, MM, FICO, ABAP and more.",
+      "service_1_title": "SAP Implementation",
+      "service_1_desc": "Full-cycle SAP implementation from blueprinting and configuration to go-live and hyper-care.",
+      "service_2_title": "SAP Support & AMS",
+      "service_2_desc": "Application Managed Services for ongoing SAP system support, issue resolution and enhancement.",
+      "service_3_title": "SAP ABAP Development",
+      "service_3_desc": "Custom ABAP development, OData services, CDS Views, RAP, BAdIs and RICEF objects.",
+      "service_4_title": "S/4HANA Migration",
+      "service_4_desc": "Brownfield and greenfield S/4HANA migration strategy, assessment and execution.",
+      "service_5_title": "SAP Integration",
+      "service_5_desc": "Third-party system integration with SAP using IDocs, BAPIs, RFC and SAP API Management.",
+      "__rows": [
+        {
+          "CONTENT KEY": "page_title",
+          "VALUE — Edit this column": "SAP Consulting"
+        },
+        {
+          "CONTENT KEY": "page_subtext",
+          "VALUE — Edit this column": "End-to-end SAP implementation, support and consulting for businesses of all sizes."
+        },
+        {
+          "CONTENT KEY": "intro_heading",
+          "VALUE — Edit this column": "Your SAP Partner"
+        },
+        {
+          "CONTENT KEY": "intro_text",
+          "VALUE — Edit this column": "SAPZCODES provides SAP consulting services to businesses looking to implement, optimise or support their SAP systems. Our consultants bring real project experience across SD, MM, FICO, ABAP and more."
+        },
+        {
+          "CONTENT KEY": "service_1_title",
+          "VALUE — Edit this column": "SAP Implementation"
+        },
+        {
+          "CONTENT KEY": "service_1_desc",
+          "VALUE — Edit this column": "Full-cycle SAP implementation from blueprinting and configuration to go-live and hyper-care."
+        },
+        {
+          "CONTENT KEY": "service_2_title",
+          "VALUE — Edit this column": "SAP Support & AMS"
+        },
+        {
+          "CONTENT KEY": "service_2_desc",
+          "VALUE — Edit this column": "Application Managed Services for ongoing SAP system support, issue resolution and enhancement."
+        },
+        {
+          "CONTENT KEY": "service_3_title",
+          "VALUE — Edit this column": "SAP ABAP Development"
+        },
+        {
+          "CONTENT KEY": "service_3_desc",
+          "VALUE — Edit this column": "Custom ABAP development, OData services, CDS Views, RAP, BAdIs and RICEF objects."
+        },
+        {
+          "CONTENT KEY": "service_4_title",
+          "VALUE — Edit this column": "S/4HANA Migration"
+        },
+        {
+          "CONTENT KEY": "service_4_desc",
+          "VALUE — Edit this column": "Brownfield and greenfield S/4HANA migration strategy, assessment and execution."
+        },
+        {
+          "CONTENT KEY": "service_5_title",
+          "VALUE — Edit this column": "SAP Integration"
+        },
+        {
+          "CONTENT KEY": "service_5_desc",
+          "VALUE — Edit this column": "Third-party system integration with SAP using IDocs, BAPIs, RFC and SAP API Management."
+        }
+      ]
+    },
+    "Our Clients": {
+      "page_title": "Our Clients",
+      "page_subtext": "Trusted by companies and professionals across India.",
+      "intro_text": "We are proud to have partnered with leading organisations and placed our students in top MNCs and IT firms across India.",
+      "── CLIENTS / LOGOS TABLE ── Add rows to add more clients": "",
+      "client_name": "client_logo_url (optional — leave blank if none)",
+      "Client Name": "",
+      "── TESTIMONIALS TABLE ── Add rows to add more testimonials": "",
+      "testimonial_name": "testimonial_text",
+      "Rahul S.": "The ABAP training at SAPZCODES was hands-on and industry-relevant. Got placed within 2 months!",
+      "Priya M.": "Best SAP FICO training in Coimbatore. The trainer's real project experience made all the difference.",
+      "Karthik R.": "Got SAP certified and placed at an MNC — all thanks to SAPZCODES. Highly recommend!",
+      "__rows": [
+        {
+          "CONTENT KEY": "page_title",
+          "VALUE — Edit this column": "Our Clients"
+        },
+        {
+          "CONTENT KEY": "page_subtext",
+          "VALUE — Edit this column": "Trusted by companies and professionals across India."
+        },
+        {
+          "CONTENT KEY": "intro_text",
+          "VALUE — Edit this column": "We are proud to have partnered with leading organisations and placed our students in top MNCs and IT firms across India."
+        },
+        {},
+        {
+          "CONTENT KEY": "── CLIENTS / LOGOS TABLE ── Add rows to add more clients"
+        },
+        {
+          "CONTENT KEY": "client_name",
+          "VALUE — Edit this column": "client_logo_url (optional — leave blank if none)",
+          "📝 NOTES FOR EDITOR": "client_description (optional)"
+        },
+        {
+          "CONTENT KEY": "Client Name",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Add client/company name. Logo URL is optional."
+        },
+        {
+          "CONTENT KEY": "Client Name",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Add client/company name. Logo URL is optional."
+        },
+        {
+          "CONTENT KEY": "Client Name",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Add client/company name. Logo URL is optional."
+        },
+        {
+          "CONTENT KEY": "Client Name",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Add client/company name. Logo URL is optional."
+        },
+        {
+          "CONTENT KEY": "Client Name",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Add client/company name. Logo URL is optional."
+        },
+        {
+          "CONTENT KEY": "Client Name",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Add client/company name. Logo URL is optional."
+        },
+        {
+          "CONTENT KEY": "Client Name",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Add client/company name. Logo URL is optional."
+        },
+        {},
+        {
+          "CONTENT KEY": "── TESTIMONIALS TABLE ── Add rows to add more testimonials"
+        },
+        {
+          "CONTENT KEY": "testimonial_name",
+          "VALUE — Edit this column": "testimonial_text",
+          "📝 NOTES FOR EDITOR": "testimonial_role"
+        },
+        {
+          "CONTENT KEY": "Rahul S.",
+          "VALUE — Edit this column": "The ABAP training at SAPZCODES was hands-on and industry-relevant. Got placed within 2 months!",
+          "📝 NOTES FOR EDITOR": "SAP ABAP Consultant, Infosys"
+        },
+        {
+          "CONTENT KEY": "Priya M.",
+          "VALUE — Edit this column": "Best SAP FICO training in Coimbatore. The trainer's real project experience made all the difference.",
+          "📝 NOTES FOR EDITOR": "SAP FICO Analyst, Capgemini"
+        },
+        {
+          "CONTENT KEY": "Karthik R.",
+          "VALUE — Edit this column": "Got SAP certified and placed at an MNC — all thanks to SAPZCODES. Highly recommend!",
+          "📝 NOTES FOR EDITOR": "SAP MM Consultant, TCS"
+        }
+      ]
+    },
+    "Enquiry": {
+      "page_title": "Get in Touch",
+      "page_subtext": "Talk to our counsellors for free — honest guidance, zero pressure.",
+      "form_heading": "Send Us a Message",
+      "map_embed_url": "",
+      "office_hours": "Mon–Sat: 9:00 AM – 7:00 PM",
+      "whatsapp_cta_text": "Or reach us directly on WhatsApp",
+      "__rows": [
+        {
+          "CONTENT KEY": "page_title",
+          "VALUE — Edit this column": "Get in Touch"
+        },
+        {
+          "CONTENT KEY": "page_subtext",
+          "VALUE — Edit this column": "Talk to our counsellors for free — honest guidance, zero pressure."
+        },
+        {
+          "CONTENT KEY": "form_heading",
+          "VALUE — Edit this column": "Send Us a Message"
+        },
+        {
+          "CONTENT KEY": "map_embed_url",
+          "VALUE — Edit this column": "",
+          "📝 NOTES FOR EDITOR": "Paste Google Maps embed URL here if you want a map shown"
+        },
+        {
+          "CONTENT KEY": "office_hours",
+          "VALUE — Edit this column": "Mon–Sat: 9:00 AM – 7:00 PM",
+          "📝 NOTES FOR EDITOR": "Office hours shown on the page"
+        },
+        {
+          "CONTENT KEY": "whatsapp_cta_text",
+          "VALUE — Edit this column": "Or reach us directly on WhatsApp",
+          "📝 NOTES FOR EDITOR": "Text shown above the WhatsApp button"
+        }
+      ]
+    },
+    "T&C": {
+      "page_title": "Terms & Conditions",
+      "last_updated": "January 2025",
+      "intro_text": "Please read these Terms and Conditions carefully before enrolling in any course or engaging our services.",
+      "section_1_heading": "1. Enrollment & Fees",
+      "section_1_text": "All fees must be paid prior to course commencement. Fees are non-refundable once training has begun. EMI options are available on request.",
+      "section_2_heading": "2. Course Schedule",
+      "section_2_text": "Batch timings are fixed at enrollment. SAPZCODES reserves the right to reschedule or modify sessions with prior notice to enrolled students.",
+      "section_3_heading": "3. Placement Assistance",
+      "section_3_text": "Placement assistance is provided on a best-effort basis. SAPZCODES does not guarantee placement but commits to supporting every student through the process.",
+      "section_4_heading": "4. Code of Conduct",
+      "section_4_text": "Students are expected to maintain respectful conduct in all sessions. SAPZCODES reserves the right to terminate enrollment for misconduct.",
+      "section_5_heading": "5. Intellectual Property",
+      "section_5_text": "All course materials, recordings, and content provided by SAPZCODES are for personal use only and may not be shared or reproduced without written consent.",
+      "section_6_heading": "6. Privacy",
+      "section_6_text": "Personal information collected during enrollment is used solely for training and placement purposes and is not shared with third parties.",
+      "section_7_heading": "7. Governing Law",
+      "section_7_text": "These terms are governed by the laws of India. Any disputes shall be subject to the jurisdiction of courts in Coimbatore, Tamil Nadu.",
+      "contact_note": "For any queries regarding these terms, contact us at hr@sapzcodes.com",
+      "__rows": [
+        {
+          "CONTENT KEY": "page_title",
+          "VALUE — Edit this column": "Terms & Conditions"
+        },
+        {
+          "CONTENT KEY": "last_updated",
+          "VALUE — Edit this column": "January 2025",
+          "📝 NOTES FOR EDITOR": "Date shown below the heading"
+        },
+        {
+          "CONTENT KEY": "intro_text",
+          "VALUE — Edit this column": "Please read these Terms and Conditions carefully before enrolling in any course or engaging our services."
+        },
+        {
+          "CONTENT KEY": "section_1_heading",
+          "VALUE — Edit this column": "1. Enrollment & Fees"
+        },
+        {
+          "CONTENT KEY": "section_1_text",
+          "VALUE — Edit this column": "All fees must be paid prior to course commencement. Fees are non-refundable once training has begun. EMI options are available on request."
+        },
+        {
+          "CONTENT KEY": "section_2_heading",
+          "VALUE — Edit this column": "2. Course Schedule"
+        },
+        {
+          "CONTENT KEY": "section_2_text",
+          "VALUE — Edit this column": "Batch timings are fixed at enrollment. SAPZCODES reserves the right to reschedule or modify sessions with prior notice to enrolled students."
+        },
+        {
+          "CONTENT KEY": "section_3_heading",
+          "VALUE — Edit this column": "3. Placement Assistance"
+        },
+        {
+          "CONTENT KEY": "section_3_text",
+          "VALUE — Edit this column": "Placement assistance is provided on a best-effort basis. SAPZCODES does not guarantee placement but commits to supporting every student through the process."
+        },
+        {
+          "CONTENT KEY": "section_4_heading",
+          "VALUE — Edit this column": "4. Code of Conduct"
+        },
+        {
+          "CONTENT KEY": "section_4_text",
+          "VALUE — Edit this column": "Students are expected to maintain respectful conduct in all sessions. SAPZCODES reserves the right to terminate enrollment for misconduct."
+        },
+        {
+          "CONTENT KEY": "section_5_heading",
+          "VALUE — Edit this column": "5. Intellectual Property"
+        },
+        {
+          "CONTENT KEY": "section_5_text",
+          "VALUE — Edit this column": "All course materials, recordings, and content provided by SAPZCODES are for personal use only and may not be shared or reproduced without written consent."
+        },
+        {
+          "CONTENT KEY": "section_6_heading",
+          "VALUE — Edit this column": "6. Privacy"
+        },
+        {
+          "CONTENT KEY": "section_6_text",
+          "VALUE — Edit this column": "Personal information collected during enrollment is used solely for training and placement purposes and is not shared with third parties."
+        },
+        {
+          "CONTENT KEY": "section_7_heading",
+          "VALUE — Edit this column": "7. Governing Law"
+        },
+        {
+          "CONTENT KEY": "section_7_text",
+          "VALUE — Edit this column": "These terms are governed by the laws of India. Any disputes shall be subject to the jurisdiction of courts in Coimbatore, Tamil Nadu."
+        },
+        {
+          "CONTENT KEY": "contact_note",
+          "VALUE — Edit this column": "For any queries regarding these terms, contact us at hr@sapzcodes.com"
+        }
+      ]
+    }
+  }
+}
