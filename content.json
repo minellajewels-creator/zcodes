@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T09:39:08.199Z",
+  "generated_at": "2026-03-30T09:41:44.711Z",
   "config": {
     "⚠️ DO NOT DELETE THIS SHEET": "",
     "── SITE IDENTITY ──": "",
@@ -64,6 +64,9 @@
       "service_4_icon": "📜",
       "service_4_title": "Certification Support",
       "service_4_desc": "SAP global certification prep with mock tests, study material and expert guidance.",
+      "service_5_icon": "📜",
+      "service_5_title": "Certification Support1",
+      "service_5_desc": "SAP global certification prep with mock tests, study material and expert guidance.",
       "── WHY SAPZCODES SECTION ──": "",
       "why_heading": "Built for Your Success.",
       "why_1_icon": "🎯",
@@ -222,15 +225,15 @@
           "VALUE — Edit this column": "SAP global certification prep with mock tests, study material and expert guidance."
         },
         {
-          "CONTENT KEY": "service_4_icon",
+          "CONTENT KEY": "service_5_icon",
           "VALUE — Edit this column": "📜"
         },
         {
-          "CONTENT KEY": "service_4_title",
-          "VALUE — Edit this column": "Certification Support"
+          "CONTENT KEY": "service_5_title",
+          "VALUE — Edit this column": "Certification Support1"
         },
         {
-          "CONTENT KEY": "service_4_desc",
+          "CONTENT KEY": "service_5_desc",
           "VALUE — Edit this column": "SAP global certification prep with mock tests, study material and expert guidance."
         },
         {
