@@ -28,7 +28,7 @@ jobs:
       - name: 🔥 Bake static site
         env:
           SHEET_ID: ${{ secrets.SHEET_ID }}
-          BASE_PATH: ""
+          BASE_PATH: "/zcodes"
         run: node bake.js
 
       - name: 📤 Commit and push
