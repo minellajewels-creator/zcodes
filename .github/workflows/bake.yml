@@ -28,6 +28,9 @@ jobs:
   bake-and-deploy:
     name: Bake Static Site & Deploy
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       # ── 1. Checkout repo ──────────────────────────────────
