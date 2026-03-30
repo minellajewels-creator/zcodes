@@ -39,17 +39,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
-
-      # ── 3. Install dependencies (none needed, pure Node) ─
-      # (keeping this step in case you add deps later)
-      - name: 📦 Install dependencies
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          else
-            echo "No package-lock.json found, skipping npm ci"
-          fi
 
       # ── 4. Run bake.js ────────────────────────────────────
       - name: 🔥 Bake static site
