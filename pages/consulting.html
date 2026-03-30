@@ -7,10 +7,6 @@
   <meta name="description" content="End-to-end SAP implementation, support and consulting for businesses of all sizes." />
   <link rel="icon" href="/zcodes/favicon.png" />
   <link rel="stylesheet" href="/zcodes/styles.css" />
-  <!-- Preconnect for fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
@@ -124,5 +120,22 @@
       <span>© 2025 SAPZCODES · Coimbatore · All Rights Reserved</span>
     </div>
   </footer>
+<script>
+// Scroll reveal
+const _io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); _io.unobserve(e.target); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.card,.course-card,.stat-card,.mission-card,.trainer-card,.testimonial-card,.section-head,.two-col > div,.generic-row,.tc-section,.contact-item').forEach((el, i) => {
+  el.classList.add('reveal');
+  if (i % 4 === 1) el.classList.add('reveal-delay-1');
+  if (i % 4 === 2) el.classList.add('reveal-delay-2');
+  if (i % 4 === 3) el.classList.add('reveal-delay-3');
+  _io.observe(el);
+});
+// Navbar shadow on scroll
+window.addEventListener('scroll', () => {
+  document.getElementById('site-header').classList.toggle('scrolled', window.scrollY > 12);
+}, { passive: true });
+</script>
 </body>
 </html>
