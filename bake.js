@@ -24,14 +24,10 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ── Config ────────────────────────────────────────────────────
-const SHEET_ID = process.env.SHEET_ID;
-if (!SHEET_ID) {
-  console.error("❌  SHEET_ID environment variable not set.");
-  process.exit(1);
-}
+const SHEET_ID = "1DSXBNUEa4CXs-DkkBvmfJwsADmUC2F2s5-FZsPKf7pQ";
 
 // Base path for GitHub Pages — set to "" for custom domain, "/reponame" for github.io/reponame
-const BASE = process.env.BASE_PATH || "";
+const BASE = process.env.BASE_PATH || "/zcodes";
 
 const OUT_DIR   = path.join(__dirname);
 const PAGES_DIR = path.join(__dirname, "pages");
