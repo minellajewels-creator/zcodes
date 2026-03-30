@@ -24,10 +24,14 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // ── Config ────────────────────────────────────────────────────
-const SHEET_ID = "1DSXBNUEa4CXs-DkkBvmfJwsADmUC2F2s5-FZsPKf7pQ";
+const SHEET_ID = process.env.SHEET_ID;
+if (!SHEET_ID) {
+  console.error("❌  SHEET_ID environment variable not set.");
+  process.exit(1);
+}
 
 // Base path for GitHub Pages — set to "" for custom domain, "/reponame" for github.io/reponame
-const BASE = process.env.BASE_PATH || "/zcodes";
+const BASE = process.env.BASE_PATH || "";
 
 const OUT_DIR   = path.join(__dirname);
 const PAGES_DIR = path.join(__dirname, "pages");
@@ -331,10 +335,6 @@ function htmlShell({ title, slug, metaDesc, bodyContent, configMap, navOrder }) 
   <meta name="description" content="${desc}" />
   <link rel="icon" href="${BASE}/favicon.png" />
   <link rel="stylesheet" href="${BASE}/styles.css" />
-  <!-- Preconnect for fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 ${navHTML(navOrder, configMap, slug)}
@@ -342,6 +342,23 @@ ${navHTML(navOrder, configMap, slug)}
 ${bodyContent}
 </main>
 ${footerHTML(configMap, navOrder)}
+<script>
+// Scroll reveal
+const _io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); _io.unobserve(e.target); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.card,.course-card,.stat-card,.mission-card,.trainer-card,.testimonial-card,.section-head,.two-col > div,.generic-row,.tc-section,.contact-item').forEach((el, i) => {
+  el.classList.add('reveal');
+  if (i % 4 === 1) el.classList.add('reveal-delay-1');
+  if (i % 4 === 2) el.classList.add('reveal-delay-2');
+  if (i % 4 === 3) el.classList.add('reveal-delay-3');
+  _io.observe(el);
+});
+// Navbar shadow on scroll
+window.addEventListener('scroll', () => {
+  document.getElementById('site-header').classList.toggle('scrolled', window.scrollY > 12);
+}, { passive: true });
+</script>
 </body>
 </html>`;
 }
