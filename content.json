@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T09:28:28.073Z",
+  "generated_at": "2026-03-30T09:39:08.199Z",
   "config": {
     "⚠️ DO NOT DELETE THIS SHEET": "",
     "── SITE IDENTITY ──": "",
@@ -221,9 +221,18 @@
           "CONTENT KEY": "service_4_desc",
           "VALUE — Edit this column": "SAP global certification prep with mock tests, study material and expert guidance."
         },
-        {},
-        {},
-        {},
+        {
+          "CONTENT KEY": "service_4_icon",
+          "VALUE — Edit this column": "📜"
+        },
+        {
+          "CONTENT KEY": "service_4_title",
+          "VALUE — Edit this column": "Certification Support"
+        },
+        {
+          "CONTENT KEY": "service_4_desc",
+          "VALUE — Edit this column": "SAP global certification prep with mock tests, study material and expert guidance."
+        },
         {
           "CONTENT KEY": "── WHY SAPZCODES SECTION ──"
         },
