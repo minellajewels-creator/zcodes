@@ -33,7 +33,7 @@ if (!SHEET_ID) {
 // Base path for GitHub Pages — set to "" for custom domain, "/reponame" for github.io/reponame
 const BASE = process.env.BASE_PATH || "";
 
-const OUT_DIR   = path.join(__dirname, "dist");
+const OUT_DIR   = path.join(__dirname, "docs");
 const PAGES_DIR = path.join(OUT_DIR, "pages");
 
 // ── Helpers ───────────────────────────────────────────────────
