@@ -30,6 +30,9 @@ if (!SHEET_ID) {
   process.exit(1);
 }
 
+// Base path for GitHub Pages — set to "" for custom domain, "/reponame" for github.io/reponame
+const BASE = process.env.BASE_PATH || "";
+
 const OUT_DIR   = path.join(__dirname, "dist");
 const PAGES_DIR = path.join(OUT_DIR, "pages");
 
@@ -249,14 +252,14 @@ function navHTML(navOrder, configMap, activeSlug = "") {
   const links = navOrder.map(name => {
     const slug = toSlug(name);
     const active = slug === activeSlug ? ' class="active"' : "";
-    return `<li><a href="/pages/${slug}.html"${active}>${esc(name)}</a></li>`;
+    return `<li><a href="${BASE}/pages/${slug}.html"${active}>${esc(name)}</a></li>`;
   }).join("\n        ");
 
   return `
   <header id="site-header">
     <nav class="navbar">
-      <a href="/index.html" class="nav-logo">
-        <img src="/logoforwhite.png" alt="${esc(configMap["site_name"] || "SAPZCODES")}" />
+      <a href="${BASE}/index.html" class="nav-logo">
+        <img src="${BASE}/logoforwhite.png" alt="${esc(configMap["site_name"] || "SAPZCODES")}" />
       </a>
       <button class="hamburger" id="hamburger" aria-label="Menu" onclick="this.classList.toggle('active');document.getElementById('nav-links').classList.toggle('open')">
         <span></span><span></span><span></span>
@@ -279,7 +282,7 @@ function footerHTML(configMap, navOrder) {
   const tag   = esc(configMap["site_tagline"] || "");
 
   const footerLinks = navOrder.map(name =>
-    `<a href="/pages/${toSlug(name)}.html">${esc(name)}</a>`
+    `<a href="${BASE}/pages/${toSlug(name)}.html">${esc(name)}</a>`
   ).join("\n        ");
 
   return `
@@ -330,8 +333,8 @@ function htmlShell({ title, slug, metaDesc, bodyContent, configMap, navOrder }) 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${pageTitle}</title>
   <meta name="description" content="${desc}" />
-  <link rel="icon" href="/favicon.png" />
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="${BASE}/favicon.png" />
+  <link rel="stylesheet" href="${BASE}/styles.css" />
   <!-- Preconnect for fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -412,7 +415,7 @@ function buildHome(d, wa, email, cfg) {
     <p class="hero-sub">${esc(d.hero_subtext || "")}</p>
     <div class="hero-btns">
       <a href="https://wa.me/${wa}" target="_blank" class="btn btn-primary">${esc(d.hero_cta_primary || "📲 WhatsApp Us")}</a>
-      <a href="/pages/career.html" class="btn btn-outline">${esc(d.hero_cta_secondary || "Explore Courses →")}</a>
+      <a href="${BASE}/pages/career.html" class="btn btn-outline">${esc(d.hero_cta_secondary || "Explore Courses →")}</a>
     </div>
   </div>
   <div class="hero-ticker">
@@ -476,7 +479,7 @@ function buildAbout(d) {
       </div>
     </div>
     <div class="about-graphic">
-      <img src="/logoforwhite.png" alt="SAPZCODES" style="max-width:260px;opacity:0.1;" />
+      <img src="${BASE}/logoforwhite.png" alt="SAPZCODES" style="max-width:260px;opacity:0.1;" />
     </div>
   </div>
 </section>
@@ -793,18 +796,18 @@ function buildShell(configMap, navOrder, firstSlug) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${siteName} — ${siteTag}</title>
   <meta name="description" content="${siteTag}" />
-  <link rel="icon" href="/favicon.png" />
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="${BASE}/favicon.png" />
+  <link rel="stylesheet" href="${BASE}/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Immediate redirect to first page; no flash -->
-  <script>window.location.replace("/pages/${firstSlug}.html");</script>
-  <noscript><meta http-equiv="refresh" content="0;url=/pages/${firstSlug}.html" /></noscript>
+  <script>window.location.replace("${BASE}/pages/${firstSlug}.html");</script>
+  <noscript><meta http-equiv="refresh" content="0;url=${BASE}/pages/${firstSlug}.html" /></noscript>
 </head>
 <body>
   <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;flex-direction:column;gap:1rem;">
-    <img src="/logoforwhite.png" alt="${siteName}" style="height:48px;opacity:0.2;" />
+    <img src="${BASE}/logoforwhite.png" alt="${siteName}" style="height:48px;opacity:0.2;" />
   </div>
 </body>
 </html>`;
@@ -825,7 +828,7 @@ function build404(configMap, navOrder) {
   <h2>Page Not Found</h2>
   <p>This page doesn't exist or may have been moved.</p>
   <div style="display:flex;gap:1rem;margin-top:1.5rem;flex-wrap:wrap;justify-content:center;">
-    <a href="/index.html" class="btn btn-primary">← Go Home</a>
+    <a href="${BASE}/index.html" class="btn btn-primary">← Go Home</a>
     <a href="https://wa.me/${wa}" target="_blank" class="btn btn-outline">📲 WhatsApp Us</a>
   </div>
 </section>`,
